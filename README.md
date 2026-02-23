@@ -27,12 +27,30 @@ pbi-ai-workspace-template/
 │   ├── 📄 CLAUDE.md                     ⚡ auto-loaded by Claude every session
 │   ├── 📄 session-handoff.md            🔄 AI writes at end, you load at start
 │   ├── 📁 skills/
-│   │   ├── 📄 dax-expert.md             🔵 load for DAX writing & debugging
-│   │   ├── 📄 requirements-analyst.md   🔵 load for requirements & transcripts
-│   │   ├── 📄 data-modeler.md           🔵 load for star schema & model design
-│   │   ├── 📄 code-reviewer.md          🔵 load for DAX & M query review
-│   │   ├── 📄 documenter.md             🔵 load for documentation writing
-│   │   └── 📄 progress-tracker.md       🔵 load for tasks & planning
+│   │   ├── 📁 dax-expert/
+│   │   │   ├── 📄 SKILL.md              🔵 DAX rules & instructions
+│   │   │   └── 📁 references/
+│   │   │       └── 📄 examples.md       📋 few-shot DAX examples
+│   │   ├── 📁 requirements-analyst/
+│   │   │   ├── 📄 SKILL.md              🔵 requirements extraction rules
+│   │   │   └── 📁 references/
+│   │   │       └── 📄 examples.md       📋 VTT & Excel extraction examples
+│   │   ├── 📁 data-modeler/
+│   │   │   ├── 📄 SKILL.md              🔵 star schema & model design rules
+│   │   │   └── 📁 references/
+│   │   │       └── 📄 examples.md       📋 model design examples
+│   │   ├── 📁 code-reviewer/
+│   │   │   ├── 📄 SKILL.md              🔵 DAX & M query review rules
+│   │   │   └── 📁 references/
+│   │   │       └── 📄 examples.md       📋 review examples
+│   │   ├── 📁 documenter/
+│   │   │   ├── 📄 SKILL.md              🔵 documentation writing rules
+│   │   │   └── 📁 references/
+│   │   │       └── 📄 examples.md       📋 documentation examples
+│   │   └── 📁 progress-tracker/
+│   │       ├── 📄 SKILL.md              🔵 progress & planning rules
+│   │       └── 📁 references/
+│   │           └── 📄 examples.md       📋 session update examples
 │   └── 📁 prompts/
 │       ├── 📄 dax-task.md               📋 copy-paste prompt for DAX tasks
 │       ├── 📄 requirements-from-vtt.md  📋 copy-paste prompt for transcripts
