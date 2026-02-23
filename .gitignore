@@ -1,0 +1,14 @@
+# Power BI files (binary - not readable by AI)
+*.pbix
+*.pbit
+
+# Keep .ai-context inputs out of git if they contain sensitive call data
+# Uncomment the line below if your VTT files contain confidential content
+# .ai-context/inputs/*.vtt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code local settings (keep workspace settings in repo, ignore personal)
+.vscode/settings.json
